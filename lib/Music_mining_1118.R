@@ -114,14 +114,6 @@ get.features <- function(files.list, directory){
 
 save(song.features.df, file = "song_feature_5.RData")
 
-###Predicting Model
-
-
-for(i in 1:2350){
-  model[i]
-}
-
-
 
 
 
