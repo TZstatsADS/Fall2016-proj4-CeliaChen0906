@@ -12,7 +12,10 @@ Term: Fall 2016
 + Projec title: 
 + Project summary: 
  + Feature Selection:
+  
   Mainly I applied K means clustering at the feature selection, the lagged difference of bars and beats, to capture the song is 4/4, 3/4, or 2/4; then MFCC features stored at segments are also really important, after taking the means, I got 12 elements of MFCC features of each song, and some other features including at the analysis part in H5 file.
+  
+  + Model Selection: 
   
   Then I applied OLS linear probability regression on each of 5000 key words, then estimate the probability of each of word's probability of 100 testing songs, then report a rank.
   But when the process of training model took me hours every time, and crashed R studio all the time.
