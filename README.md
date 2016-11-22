@@ -11,7 +11,7 @@ Term: Fall 2016
 + Contributor's name: Chen Zheyuan
 + Projec title: 
 + Project summary: 
- + Feature Selection:
+  ###Feature Selection:
   
    I mainly applied K means clustering and mean value at the feature selection. After feature extraction and
    
@@ -36,7 +36,7 @@ Term: Fall 2016
     
    
   
-  + Model Selection: 
+   ###Model Selection: 
   
   Then I applied OLS linear probability regression on each of 5000 key words, then estimate the probability of each of word's probability of 100 testing songs, then report a rank.
   But when the process of training model took me hours every time, and crashed R studio all the time.
